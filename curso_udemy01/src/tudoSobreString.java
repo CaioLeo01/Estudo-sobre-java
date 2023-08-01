@@ -44,7 +44,7 @@ public class tudoSobreString {
 		String[] vect = s.split(" ");
 		int i = 0;
 		
-		for(i = 0 ; i <= 3 ; i++){
+		for(i = 0 ; i <vect.length ; i++){
 		System.out.println(vect[i]);
 		}
 		
